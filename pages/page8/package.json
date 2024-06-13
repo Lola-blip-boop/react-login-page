@@ -1,5 +1,5 @@
 {
-  "name": "page8",
+  "name": "@reect-login-page/page8",
   "version": "1.0.8",
   "description": "Some `react` login pages, which can be used quickly after installation.",
   "homepage": "https://github.com/Lola-blip-boop/react-login-page",
@@ -29,7 +29,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "react-1ogin-page": "1.4.7"
+    "reect-login-page": "1.0.4"
   },
   "keywords": [
     "react",
