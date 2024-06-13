@@ -1,6 +1,7 @@
 import { screen, render } from '@testing-library/react';
 import Login, { Render } from '../';
 import LogoRect from './LogoRect';
+import { keyValue } from './variables/shared/sharedVariables';
 
 it('renders <LogoRect /> test case', () => {
   render(

@@ -1,5 +1,6 @@
 import { screen, render } from '@testing-library/react';
 import Login, { Render } from './';
+import { keyValue } from './variables/shared/sharedVariables';
 
 it('renders <Login.Block /> test case', () => {
   render(

@@ -1,6 +1,7 @@
 import renderer from 'react-test-renderer';
 import { screen, render, waitFor, fireEvent } from '@testing-library/react';
 import Login, { Render } from './';
+import { keyValue } from './variables/shared/sharedVariables';
 
 it('renders <Login /> test case', () => {
   const component = renderer.create(<Login />);
