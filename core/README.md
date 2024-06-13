@@ -5,15 +5,15 @@
 <br />
 <br />
 <p align="center">
-  <a href="https://github.com/Lola-blip-boop/react-login-page">
-    <img alt="react-codemirror logo" src="https://github.com/Lola-blip-boop/react-login-page/logo.svg">
+  <a href="https://uiwjs.github.io/react-login-page">
+    <img alt="react-codemirror logo" src="https://uiwjs.github.io/react-login-page/logo.svg">
   </a>
 </p>
 <h3 align="center">React Login Pages</h3>
 <br />
 <br />
 <p align="center">
-  <a href="https://www.npmjs.com/package/react-1ogin-page" target="__blank">
+  <a href="https://www.npmjs.com/package/reect-login-page" target="__blank">
     <img alt="Downloads" src="https://img.shields.io/npm/dm/react-login-page.svg?style=flat">
   </a>
   <a href="https://www.jsdelivr.com/package/npm/react-login-page" target="__blank">
@@ -25,9 +25,6 @@
   <br />
   <a href="https://github.com/uiwjs/react-login-page/actions/workflows/main.yml" target="__blank">
     <img alt="Build & Deploy" src="https://github.com/uiwjs/react-login-page/actions/workflows/main.yml/badge.svg" />
-  </a>
-  <a href="https://github.com/Lola-blip-boop/react-login-page/lcov-report/" target="__blank">
-    <img alt="Coverage Status" src="https://github.com/Lola-blip-boop/react-login-page/badges.svg" />
   </a>
   <a href="https://uiwjs.github.io/npm-unpkg/#/pkg/react-login-page/file/README.md" target="__blank">
     <img src="https://img.shields.io/badge/Open%20in-unpkg-blue" alt="Open in unpkg">
@@ -66,15 +63,15 @@ This component is designed to facilitate the development of additional login pag
 ### Install
 
 ```bash
-npm install react-1ogin-page --save
+npm install reect-login-page --save
 ```
 
 ### Usage
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
-import Logo from 'react-1ogin-page/logo';
+import Login, { Render } from 'reect-login-page';
+import Logo from 'reect-login-page/logo';
 
 const Demo = () => {
   return (
@@ -124,8 +121,8 @@ Change the control order by using **`index`**, Provide more flexible API encapsu
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
-import Logo from 'react-1ogin-page/logo-rect';
+import Login, { Render } from 'reect-login-page';
+import Logo from 'reect-login-page/logo-rect';
 
 const Demo = () => {
   return (
@@ -198,16 +195,16 @@ export default Demo;
 There are two default logos built-in, with a special way to import them. See below for reference:
 
 ```tsx
-import Logo from 'react-1ogin-page/logo';
-import Logo from 'react-1ogin-page/logo-rect';
+import Logo from 'reect-login-page/logo';
+import Logo from 'reect-login-page/logo-rect';
 ```
 
 ⚠️ If you don't use them, they won't be packaged.
 
 ```jsx mdx:preview
 import React from 'react';
-import Logo from 'react-1ogin-page/logo';
-import LogoRect from 'react-1ogin-page/logo-rect';
+import Logo from 'reect-login-page/logo';
+import LogoRect from 'reect-login-page/logo-rect';
 
 const Demo = () => {
   return (
@@ -224,7 +221,7 @@ export default Demo;
 ### `Login.Block`
 
 ```jsx
-import Login, { Block } from 'react-1ogin-page';
+import Login, { Block } from 'reect-login-page';
 
 <Login.Block keyname="title">Login</Login.Block>
 <Block keyname="title">Login</Block>
@@ -232,7 +229,7 @@ import Login, { Block } from 'react-1ogin-page';
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
+import Login, { Render } from 'reect-login-page';
 
 const Demo = () => {
   const [name, setName] = React.useState(1);
@@ -249,7 +246,7 @@ export default Demo;
 
 ```jsx
 import { PropsWithChildren, AllHTMLAttributes } from 'react';
-import { BlockTagType } from 'react-1ogin-page';
+import { BlockTagType } from 'reect-login-page';
 
 export interface BlockProps<Tag extends BlockTagType> extends AllHTMLAttributes<Tag> {
   keyname?: string;
@@ -273,7 +270,7 @@ export declare const Block: {
 ### `Login.Input`
 
 ```jsx
-import Login, { Input } from 'react-1ogin-page';
+import Login, { Input } from 'reect-login-page';
 
 <Login.Input name="password" type="password" placeholder="Password" />
 <Input name="password" type="password" placeholder="Password" />
@@ -281,7 +278,7 @@ import Login, { Input } from 'react-1ogin-page';
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
+import Login, { Render } from 'reect-login-page';
 
 const Demo = () => {
   return (
@@ -329,8 +326,8 @@ export declare const Input: FC<PropsWithChildren<InputProps>>;
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
-import Logo from 'react-1ogin-page/logo-rect';
+import Login, { Render } from 'reect-login-page';
+import Logo from 'reect-login-page/logo-rect';
 
 const Demo = () => {
   return (
@@ -356,7 +353,7 @@ export default Demo;
 ### `Login.Textarea`
 
 ```jsx
-import Login, { Textarea } from 'react-1ogin-page';
+import Login, { Textarea } from 'reect-login-page';
 
 <Login.Textarea name="note" />
 <Textarea name="note" />
@@ -364,7 +361,7 @@ import Login, { Textarea } from 'react-1ogin-page';
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
+import Login, { Render } from 'reect-login-page';
 
 const Demo = () => {
   return (
@@ -405,7 +402,7 @@ export declare const Textarea: FC<PropsWithChildren<TextareaProps>>;
 ### `Login.Select`
 
 ```jsx
-import Login, { Select } from 'react-1ogin-page';
+import Login, { Select } from 'reect-login-page';
 
 <Login.Select name="selectname">
   <option value="1">One</option>
@@ -420,7 +417,7 @@ import Login, { Select } from 'react-1ogin-page';
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
+import Login, { Render } from 'reect-login-page';
 
 const Demo = () => {
   return (
@@ -456,7 +453,7 @@ export declare const Select: FC<PropsWithChildren<SelectProps>>;
 ### `Login.Button`
 
 ```jsx
-import Login, { Button } from 'react-1ogin-page';
+import Login, { Button } from 'reect-login-page';
 
 <Login.Button keyname="submit" type="submit">Login</Login.Button>
 <Button keyname="submit" type="submit" />Login</Button>
@@ -464,7 +461,7 @@ import Login, { Button } from 'react-1ogin-page';
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render } from 'react-1ogin-page';
+import Login, { Render } from 'reect-login-page';
 
 const Demo = () => {
   return (
@@ -494,7 +491,7 @@ export declare const Button: FC<PropsWithChildren<ButtonProps>>;
 ### `Render`
 
 ```jsx
-import { Render } from 'react-1ogin-page';
+import { Render } from 'reect-login-page';
 
 <Render>
   {({ fields, buttons, blocks, extra, $$index }, data) => {
@@ -520,7 +517,7 @@ import { Render } from 'react-1ogin-page';
 
 ```tsx
 import { FC } from 'react';
-import { RenderStateProps, InitialState } from 'react-1ogin-page';
+import { RenderStateProps, InitialState } from 'reect-login-page';
 export type RenderChildren =
   | {
       children?: (props: Required<RenderStateProps>, data: InitialState['data']) => React.ReactNode;
@@ -568,7 +565,7 @@ export declare const Render: FC<RenderChildren>;
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Render, Provider, Container, useStore } from 'react-1ogin-page';
+import Login, { Render, Provider, Container, useStore } from 'reect-login-page';
 
 const RenderLoginPage = () => {
   const { fields, extra, $$index, buttons, blocks, data } = useStore();
@@ -618,7 +615,7 @@ export default Demo;
 
 ```jsx mdx:preview
 import React, { isValidElement, cloneElement } from 'react';
-import Login, { Render, Provider, Container, useStore } from 'react-1ogin-page';
+import Login, { Render, Provider, Container, useStore } from 'reect-login-page';
 
 const RenderLoginPage = () => {
   const { blocks, data, $$index, extra } = useStore();
