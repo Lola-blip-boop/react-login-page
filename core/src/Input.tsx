@@ -1,6 +1,6 @@
 import React, { FC, PropsWithChildren, useEffect, memo } from 'react';
 import { useStore } from './store';
-import { keyValue } from './variables/shared/sharedVariables';
+import { keyValue } from './variables/shared/sharedValues';
 import { url, customUrl } from './variables/accessibility/common/commonVars';
 
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {

@@ -1,11 +1,11 @@
-# @react-login-page/page6
+# @reect-login-page/page6
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
-[![npm version](https://img.shields.io/npm/v/@react-login-page/page6.svg)](https://www.npmjs.com/package/@react-login-page/page6)
-[![Downloads](https://img.shields.io/npm/dm/@react-login-page/page6.svg?style=flat)](https://www.npmjs.com/package/@react-login-page/page6)
+[![npm version](https://img.shields.io/npm/v/@reect-login-page/page6.svg)](https://www.npmjs.com/package/@reect-login-page/page6)
+[![Downloads](https://img.shields.io/npm/dm/@reect-login-page/page6.svg?style=flat)](https://www.npmjs.com/package/@reect-login-page/page6)
 
 <!--rehype:ignore:start-->
-<a href="https://uiwjs.github.io/react-login-page">
+<a href="https://github.com/Lola-blip-boop/react-login-page">
 <img width="571" alt="login-page" src="https://user-images.githubusercontent.com/1680273/234633551-17457970-6846-4ca9-9bf4-bdfa69745868.png">
 </a>
 
@@ -14,14 +14,14 @@
 ## Install
 
 ```bash
-$ npm install @react-login-page/page6 --save
+$ npm install @reect-login-page/page6 --save
 ```
 
 ## Usage
 
 ```jsx mdx:preview
 import React from 'react';
-import Login from '@react-login-page/page6';
+import Login from '@reect-login-page/page6';
 
 const Demo = () => <Login style={{ height: 690 }} />;
 
@@ -32,7 +32,7 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Username, Password, Submit, Title, Logo } from '@react-login-page/page6';
+import LoginPage, { Username, Password, Submit, Title, Logo } from '@reect-login-page/page6';
 import LoginLogo from 'react-login-page/logo';
 
 const styles = { height: 690 };
@@ -63,7 +63,7 @@ Use `visible={false}` to hide controls.
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Logo, Password, Footer } from '@react-login-page/page6';
+import LoginPage, { Reset, Logo, Password, Footer } from '@reect-login-page/page6';
 import LoginLogo from 'react-login-page/logo-rect';
 
 const Demo = () => (
@@ -85,7 +85,7 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Logo, Footer, Username, Password, Input } from '@react-login-page/page6';
+import LoginPage, { Reset, Logo, Footer, Username, Password, Input } from '@reect-login-page/page6';
 import LoginLogo from 'react-login-page/logo-rect';
 
 const imgSrc =
@@ -141,7 +141,7 @@ Modify the string that specifies the **`name`** of the input control by default
 
 ```jsx mdx:preview
 import React from 'react';
-import Login from '@react-login-page/page6';
+import Login from '@reect-login-page/page6';
 
 const css = {
   '--login-bg': '#5b6ef4',
@@ -238,15 +238,15 @@ Custom CSS style overrides
 Components be provided to modify control properties and perform other related functions.
 
 ```jsx
-import LoginPage from '@react-login-page/page6';
+import LoginPage from '@reect-login-page/page6';
 // buttons
-import { Reset, Submit } from '@react-login-page/page6';
+import { Reset, Submit } from '@reect-login-page/page6';
 // blocks
-import { Logo, Title, Footer } from '@react-login-page/page6';
+import { Logo, Title, Footer } from '@reect-login-page/page6';
 // fields
-import { Username, Password } from '@react-login-page/page6';
+import { Username, Password } from '@reect-login-page/page6';
 // Basic Components
-import { Button, Input } from '@react-login-page/page6';
+import { Button, Input } from '@reect-login-page/page6';
 // or
 import { Button, Input } from 'react-login-page';
 
@@ -279,7 +279,7 @@ import { Button, Input } from 'react-login-page';
 Use [dot notation](https://legacy.reactjs.org/docs/jsx-in-depth.html#using-dot-notation-for-jsx-type) components.
 
 ```jsx
-import Login from '@react-login-page/page6';
+import Login from '@reect-login-page/page6';
 
 <Login>
   <Login.Password index={2} />
@@ -305,7 +305,7 @@ import Login from '@react-login-page/page6';
 As always, thanks to our amazing contributors!
 
 <a href="https://github.com/uiwjs/react-login-page/graphs/contributors">
-  <img src="https://uiwjs.github.io/react-login-page/CONTRIBUTORS.svg" />
+  <img src="https://github.com/Lola-blip-boop/react-login-page/CONTRIBUTORS.svg" />
 </a>
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).

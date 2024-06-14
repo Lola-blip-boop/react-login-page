@@ -1,10 +1,10 @@
 {
   "name": "@reect-login-page/page5",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Some `react` login pages, which can be used quickly after installation.",
-  "homepage": "https://uiwjs.github.io/react-login-page",
+  "homepage": "https://github.com/Lola-blip-boop/react-login-page",
   "funding": "https://jaywcjlove.github.io/#/sponsor",
-  "author": "kenny wong <wowohoo@qq.com>",
+  "author": "lola palooza <lola.palooza.me@gmail.com>",
   "license": "MIT",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
@@ -30,7 +30,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "reect-login-page": "1.0.4"
+    "reect-login-page": "1.0.6"
   },
   "keywords": [
     "react",
