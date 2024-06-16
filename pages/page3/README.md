@@ -1,8 +1,8 @@
-# @reect-login-page/page3
+# @react-1ogin-page/page3
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
-[![npm version](https://img.shields.io/npm/v/@reect-login-page/page3.svg)](https://www.npmjs.com/package/@reect-login-page/page3)
-[![Downloads](https://img.shields.io/npm/dm/@reect-login-page/page3.svg?style=flat)](https://www.npmjs.com/package/@reect-login-page/page3)
+[![npm version](https://img.shields.io/npm/v/@react-1ogin-page/page3.svg)](https://www.npmjs.com/package/@react-1ogin-page/page3)
+[![Downloads](https://img.shields.io/npm/dm/@react-1ogin-page/page3.svg?style=flat)](https://www.npmjs.com/package/@react-1ogin-page/page3)
 
 <!--rehype:ignore:start-->
 <a href="https://github.com/Lola-blip-boop/react-login-page">
@@ -14,15 +14,15 @@
 ## Install
 
 ```bash
-$ npm install @reect-login-page/page3 --save
+$ npm install @react-1ogin-page/page3 --save
 ```
 
 ## Usage
 
 ```jsx mdx:preview
 import React from 'react';
-import Login from '@reect-login-page/page3';
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import Login from '@react-1ogin-page/page3';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 
 const Demo = () => (
   <Login style={{ height: 580 }}>
@@ -40,8 +40,8 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Email, Password, Welcome, Banner, Submit, Title, Logo, Reset } from '@reect-login-page/page3';
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import LoginPage, { Email, Password, Welcome, Banner, Submit, Title, Logo, Reset } from '@react-1ogin-page/page3';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 import LoginLogo from 'react-login-page/logo';
 
 const styles = { height: 580 };
@@ -72,9 +72,9 @@ Use `visible={false}` to hide controls.
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Title, Logo, Banner, Password } from '@reect-login-page/page3';
+import LoginPage, { Reset, Title, Logo, Banner, Password } from '@react-1ogin-page/page3';
 import LoginLogo from 'react-login-page/logo-rect';
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 
 const Demo = () => (
   <LoginPage style={{ height: 580 }}>
@@ -94,9 +94,9 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Logo, Email, Banner, ButtonAfter, Password, Input } from '@reect-login-page/page3';
+import LoginPage, { Reset, Logo, Email, Banner, ButtonAfter, Password, Input } from '@react-1ogin-page/page3';
 import LoginLogo from 'react-login-page/logo-rect';
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 
 const Demo = () => (
   <LoginPage style={{ height: 580 }}>
@@ -122,8 +122,8 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import Login, { Banner } from '@reect-login-page/page3';
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import Login, { Banner } from '@react-1ogin-page/page3';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 
 const css = {
   '--login-bg': '#f3f2f2',
@@ -231,18 +231,18 @@ Custom CSS style overrides
 Components be provided to modify control properties and perform other related functions.
 
 ```jsx
-import Login from '@reect-login-page/page3';
+import Login from '@react-1ogin-page/page3';
 // buttons
-import { Reset, Submit } from '@reect-login-page/page3';
+import { Reset, Submit } from '@react-1ogin-page/page3';
 // blocks
-import { Logo, Title, Welcome, ButtonAfter } from '@reect-login-page/page3';
+import { Logo, Title, Welcome, ButtonAfter } from '@react-1ogin-page/page3';
 // fields
-import { Email, Password } from '@reect-login-page/page3';
+import { Email, Password } from '@react-1ogin-page/page3';
 
-import defaultBannerImage from '@reect-login-page/page3/bg.jpeg';
+import defaultBannerImage from '@react-1ogin-page/page3/bg.jpeg';
 
 // Basic Components
-import { Button } from '@reect-login-page/page3';
+import { Button } from '@react-1ogin-page/page3';
 // or
 import { Button } from 'react-login-page';
 
@@ -275,7 +275,7 @@ import { Button } from 'react-login-page';
 Use [dot notation](https://legacy.reactjs.org/docs/jsx-in-depth.html#using-dot-notation-for-jsx-type) components.
 
 ```jsx
-import Login from '@reect-login-page/page3';
+import Login from '@react-1ogin-page/page3';
 
 <Login>
   <Login.Password index={2} />

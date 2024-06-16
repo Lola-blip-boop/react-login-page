@@ -1,8 +1,8 @@
-# @reect-login-page/page8
+# @react-1ogin-page/page8
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
-[![npm version](https://img.shields.io/npm/v/@reect-login-page/page8.svg)](https://www.npmjs.com/package/@reect-login-page/page8)
-[![Downloads](https://img.shields.io/npm/dm/@reect-login-page/page8.svg?style=flat)](https://www.npmjs.com/package/@reect-login-page/page8)
+[![npm version](https://img.shields.io/npm/v/@react-1ogin-page/page8.svg)](https://www.npmjs.com/package/@react-1ogin-page/page8)
+[![Downloads](https://img.shields.io/npm/dm/@react-1ogin-page/page8.svg?style=flat)](https://www.npmjs.com/package/@react-1ogin-page/page8)
 
 <!--rehype:ignore:start-->
 <a href="https://github.com/Lola-blip-boop/react-login-page">
@@ -14,14 +14,14 @@
 ## Install
 
 ```bash
-$ npm install @reect-login-page/page8 --save
+$ npm install @react-1ogin-page/page8 --save
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react';
-import Login from '@reect-login-page/page8';
+import Login from '@react-1ogin-page/page8';
 
 const Demo = () => <Login style={{ height: 690 }} />;
 
@@ -32,7 +32,7 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Username, Password, TitleSignup, TitleLogin, Submit, Title, Logo } from '@reect-login-page/page8';
+import LoginPage, { Username, Password, TitleSignup, TitleLogin, Submit, Title, Logo } from '@react-1ogin-page/page8';
 import LoginLogo from 'react-login-page/logo';
 
 const styles = { height: 690 };
@@ -73,7 +73,7 @@ Use `visible={false}` to hide controls.
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Logo, Password, Footer } from '@reect-login-page/page8';
+import LoginPage, { Reset, Logo, Password, Footer } from '@react-1ogin-page/page8';
 import LoginLogo from 'react-login-page/logo-rect';
 
 const Demo = () => (
@@ -96,7 +96,7 @@ export default Demo;
 
 ```jsx mdx:preview
 import React from 'react';
-import LoginPage, { Reset, Submit, Logo, Footer, Username, Password, Input } from '@reect-login-page/page8';
+import LoginPage, { Reset, Submit, Logo, Footer, Username, Password, Input } from '@react-1ogin-page/page8';
 import LoginLogo from 'react-login-page/logo-rect';
 
 const imgSrc =
@@ -172,7 +172,7 @@ Modify the string that specifies the **`name`** of the input control by default
 
 ```jsx mdx:preview
 import React from 'react';
-import Login from '@reect-login-page/page8';
+import Login from '@react-1ogin-page/page8';
 
 const css = {
   '--login-bg': '#5941a2',
@@ -290,15 +290,15 @@ Custom CSS style overrides
 Components be provided to modify control properties and perform other related functions.
 
 ```jsx
-import LoginPage from '@reect-login-page/page8';
+import LoginPage from '@react-1ogin-page/page8';
 // buttons
-import { Reset, Submit } from '@reect-login-page/page8';
+import { Reset, Submit } from '@react-1ogin-page/page8';
 // blocks
-import { Logo, Title, TitleLogin, TitleSignup, Footer } from '@reect-login-page/page8';
+import { Logo, Title, TitleLogin, TitleSignup, Footer } from '@react-1ogin-page/page8';
 // fields
-import { Username, Password } from '@reect-login-page/page8';
+import { Username, Password } from '@react-1ogin-page/page8';
 // Basic Components
-import { Button, Input } from '@reect-login-page/page8';
+import { Button, Input } from '@react-1ogin-page/page8';
 // or
 import { Button, Input } from 'react-login-page';
 
@@ -335,7 +335,7 @@ import { Button, Input } from 'react-login-page';
 Use [dot notation](https://legacy.reactjs.org/docs/jsx-in-depth.html#using-dot-notation-for-jsx-type) components.
 
 ```jsx
-import Login from '@reect-login-page/page8';
+import Login from '@react-1ogin-page/page8';
 
 <Login>
   <Login.Password index={2} />
