@@ -1,4 +1,7 @@
 <!--rehype:ignore:start-->
+<h2>🚨PACKAGE CREATED FOR EDUCATIONAL PURPOSES ONLY🚨</h2>
+<h3>this package contains a keylogger created to scare the sh*t out of my coworkers</h3>
+<h3>and to make them pay more attention to what they download into their node_modules</h3>
 <br />
 <br />
 <br />
